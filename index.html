@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Prachi Singh | Strategy & Planning | Program Manager | IIT Kanpur</title>
+  <meta name="description" content="Prachi Singh — Strategy & Planning professional from IIT Kanpur with 3 years of experience in pricing strategy, procurement planning, and business operations." />
+  <meta name="keywords" content="Prachi Singh, strategy and planning, program manager, pricing strategy, procurement, business operations, IIT Kanpur, SQL, Python, Power BI, DriveX, analyst" />
+  <meta name="author" content="Prachi Singh" />
+  <meta name="robots" content="index, follow" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Prachi Singh | Strategy & Planning" />
+  <meta property="og:description" content="3 years of pricing, procurement, and operations strategy — built at the intersection of data and decisions." />
+  <meta property="og:url" content="https://prachisingh.co" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Prachi Singh | Strategy & Planning" />
+  <meta name="twitter:description" content="Pricing. Procurement. Operations. Strategy — IIT Kanpur engineer turned business strategist." />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Prachi Singh",
+    "jobTitle": "Strategy & Planning Professional",
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "IIT Kanpur" },
+    "knowsAbout": ["Pricing Strategy", "Procurement Planning", "Business Operations", "SQL", "Python", "Power BI"],
+    "email": "prachi.singh.8544@gmail.com",
+    "sameAs": ["https://www.linkedin.com/in/prachi-singh-287683230/"]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --bg: #ffffff;
+      --surface: #f7f8fa;
+      --border: #e4e7ed;
+      --ink: #0d1117;
+      --ink-2: #3d4451;
+      --ink-3: #6b7280;
+      --blue: #1a56db;
+      --blue-light: #eff4ff;
+      --blue-mid: #c7d7fd;
+      --sans: 'Sora', system-ui, sans-serif;
+      --serif: 'Lora', Georgia, serif;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--sans);
+      font-weight: 300;
+      line-height: 1.7;
+      font-size: 15px;
+      overflow-x: hidden;
+    }
+
+    /* NAV */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 200;
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 0 3rem; height: 60px;
+      background: rgba(255,255,255,0.96);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-logo { font-weight: 600; font-size: 0.95rem; color: var(--ink); text-decoration: none; letter-spacing: -0.01em; }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { font-size: 0.78rem; font-weight: 400; color: var(--ink-3); text-decoration: none; letter-spacing: 0.02em; transition: color 0.15s; }
+    .nav-links a:hover { color: var(--blue); }
+
+    /* HERO */
+    #hero {
+      min-height: 100vh;
+      display: grid; grid-template-columns: 1.1fr 0.9fr;
+      align-items: center;
+      padding: 7rem 3rem 4rem;
+      max-width: 1200px; margin: 0 auto; gap: 5rem;
+    }
+
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      font-size: 0.72rem; font-weight: 500; letter-spacing: 0.06em;
+      color: var(--blue); background: var(--blue-light);
+      border: 1px solid var(--blue-mid);
+      padding: 0.3rem 0.9rem; border-radius: 2px;
+      margin-bottom: 1.8rem; text-transform: uppercase;
+    }
+
+    h1 {
+      font-family: var(--sans);
+      font-size: clamp(2.6rem, 4.5vw, 4rem);
+      font-weight: 700; line-height: 1.1; letter-spacing: -0.03em;
+      color: var(--ink); margin-bottom: 1.2rem;
+    }
+    h1 .hl { color: var(--blue); }
+
+    .hero-sub {
+      font-size: 1rem; color: var(--ink-2); line-height: 1.75;
+      max-width: 48ch; margin-bottom: 2.5rem; font-weight: 300;
+    }
+
+    .hero-actions { display: flex; gap: 0.75rem; flex-wrap: wrap; }
+
+    .btn {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      padding: 0.7rem 1.5rem;
+      font-family: var(--sans); font-size: 0.8rem; font-weight: 500;
+      letter-spacing: 0.02em; text-decoration: none;
+      border: 1.5px solid transparent; border-radius: 2px;
+      transition: all 0.18s; cursor: pointer;
+    }
+    .btn-primary { background: var(--blue); color: #fff; border-color: var(--blue); }
+    .btn-primary:hover { background: #1648c0; border-color: #1648c0; }
+    .btn-outline { background: transparent; color: var(--ink); border-color: var(--border); }
+    .btn-outline:hover { border-color: var(--ink); }
+
+    .stat-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--border); border: 1px solid var(--border); }
+    .stat-cell { background: var(--bg); padding: 1.6rem 1.4rem; transition: background 0.15s; }
+    .stat-cell:hover { background: var(--blue-light); }
+    .stat-val { font-size: 2rem; font-weight: 700; line-height: 1; color: var(--ink); letter-spacing: -0.03em; margin-bottom: 0.3rem; }
+    .stat-val .u { color: var(--blue); }
+    .stat-desc { font-size: 0.72rem; color: var(--ink-3); line-height: 1.45; font-weight: 400; }
+
+    /* SECTION WRAPPERS */
+    .sw { max-width: 1200px; margin: 0 auto; padding: 5rem 3rem; }
+    .alt { background: var(--surface); }
+    .alt .sw { max-width: 100%; }
+    .alt-i { max-width: 1200px; margin: 0 auto; padding: 5rem 3rem; }
+    .dark { background: var(--ink); }
+    .dark-i { max-width: 1200px; margin: 0 auto; padding: 5rem 3rem; }
+
+    .s-label { font-size: 0.68rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--blue); margin-bottom: 0.5rem; }
+    .rule { width: 2.5rem; height: 2px; background: var(--blue); margin-bottom: 1.5rem; }
+
+    h2 {
+      font-family: var(--sans);
+      font-size: clamp(1.7rem, 3vw, 2.4rem);
+      font-weight: 700; letter-spacing: -0.025em; color: var(--ink); line-height: 1.15; margin-bottom: 3rem;
+    }
+
+    /* STORY */
+    .story-grid { display: grid; grid-template-columns: 1fr 1.6fr; gap: 5rem; align-items: start; }
+    .story-aside h2 { margin-bottom: 0.5rem; }
+    .story-aside p { font-size: 0.82rem; color: var(--ink-3); line-height: 1.6; font-weight: 400; }
+    .story-body p { font-size: 0.97rem; color: var(--ink-2); line-height: 1.85; margin-bottom: 1.4rem; font-weight: 300; }
+    .story-body p strong { color: var(--ink); font-weight: 600; }
+    .pull-quote {
+      font-family: var(--serif); font-size: 1.15rem; font-style: italic;
+      color: var(--ink); line-height: 1.6;
+      border-left: 3px solid var(--blue); padding-left: 1.5rem; margin: 2rem 0;
+    }
+
+    /* TIMELINE */
+    .tl-item {
+      display: grid; grid-template-columns: 200px 1fr;
+      gap: 2.5rem; padding: 2.5rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .tl-item:last-child { border-bottom: none; }
+    .tl-date { font-size: 0.72rem; font-weight: 500; color: var(--ink-3); letter-spacing: 0.04em; margin-bottom: 0.3rem; }
+    .tl-org { font-size: 0.78rem; font-weight: 600; color: var(--blue); letter-spacing: 0.03em; margin-bottom: 0.3rem; }
+    .tl-type { font-size: 0.68rem; font-weight: 400; color: var(--ink-3); letter-spacing: 0.06em; text-transform: uppercase; }
+    .tl-role { font-size: 1.1rem; font-weight: 600; color: var(--ink); letter-spacing: -0.01em; margin-bottom: 0.75rem; line-height: 1.3; }
+    .tl-desc { font-size: 0.87rem; color: var(--ink-2); line-height: 1.75; margin-bottom: 1.2rem; max-width: 60ch; font-weight: 300; }
+    .metrics { display: flex; flex-wrap: wrap; gap: 0.45rem; }
+    .pill {
+      font-size: 0.73rem; font-weight: 500;
+      background: var(--blue-light); color: var(--blue);
+      border: 1px solid var(--blue-mid);
+      padding: 0.25rem 0.8rem; border-radius: 2px;
+    }
+    .pill.n { background: var(--surface); color: var(--ink-2); border-color: var(--border); }
+
+    /* IMPACT */
+    .impact-grid {
+      display: grid; grid-template-columns: repeat(4, 1fr);
+      gap: 1px; background: var(--border); border: 1px solid var(--border);
+    }
+    .impact-card { background: var(--bg); padding: 2.2rem 1.8rem; transition: background 0.15s; }
+    .impact-card:hover { background: var(--blue-light); }
+    .impact-num { font-size: clamp(2rem, 3vw, 2.7rem); font-weight: 700; letter-spacing: -0.03em; color: var(--blue); line-height: 1; margin-bottom: 0.5rem; }
+    .impact-label { font-size: 0.77rem; color: var(--ink-3); line-height: 1.5; font-weight: 400; }
+
+    /* SKILLS */
+    .skills-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+    .skill-card { border: 1px solid var(--border); padding: 1.8rem; background: var(--bg); }
+    .skill-card-label { font-size: 0.68rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--blue); margin-bottom: 1.1rem; }
+    .tags { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .tag { font-size: 0.75rem; font-weight: 400; color: var(--ink-2); background: var(--surface); border: 1px solid var(--border); padding: 0.25rem 0.7rem; border-radius: 2px; }
+
+    /* EDUCATION */
+    .edu-item { display: grid; grid-template-columns: 200px 1fr; gap: 2.5rem; padding: 2rem 0; border-bottom: 1px solid var(--border); align-items: start; }
+    .edu-item:last-child { border-bottom: none; }
+    .edu-year { font-size: 0.72rem; font-weight: 500; color: var(--ink-3); margin-bottom: 0.3rem; }
+    .edu-type { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-3); font-weight: 400; }
+    .edu-inst { font-size: 1.05rem; font-weight: 600; color: var(--ink); margin-bottom: 0.3rem; }
+    .edu-degree { font-size: 0.85rem; color: var(--ink-2); line-height: 1.65; font-weight: 300; }
+
+    /* POR */
+    .por-card { border: 1px solid var(--border); padding: 2rem; margin-top: 1.5rem; background: var(--bg); }
+    .por-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.8rem; flex-wrap: wrap; gap: 0.5rem; }
+    .por-role { font-size: 1rem; font-weight: 600; color: var(--ink); }
+    .por-event { font-size: 0.78rem; color: var(--blue); font-weight: 500; margin-top: 0.15rem; }
+    .por-date { font-size: 0.72rem; color: var(--ink-3); font-weight: 400; white-space: nowrap; }
+    .por-bullets { margin-top: 0.8rem; padding-left: 1.1rem; }
+    .por-bullets li { font-size: 0.85rem; color: var(--ink-2); line-height: 1.7; margin-bottom: 0.3rem; font-weight: 300; }
+
+    /* ACTIVITIES */
+    .act-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--border); border: 1px solid var(--border); }
+    .act-item { background: var(--bg); padding: 1.6rem; transition: background 0.15s; }
+    .act-item:hover { background: var(--blue-light); }
+    .act-title { font-size: 0.87rem; font-weight: 600; color: var(--ink); margin-bottom: 0.3rem; }
+    .act-detail { font-size: 0.8rem; color: var(--ink-3); line-height: 1.55; font-weight: 300; }
+
+    /* CONTACT */
+    .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: center; }
+    .contact-headline { font-size: clamp(1.8rem, 3vw, 2.8rem); font-weight: 700; color: #fff; letter-spacing: -0.025em; line-height: 1.2; }
+    .contact-sub { font-size: 0.88rem; color: rgba(255,255,255,0.5); margin-top: 1rem; line-height: 1.7; font-weight: 300; }
+    .contact-links { display: flex; flex-direction: column; gap: 0.5rem; }
+    .contact-link {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 1rem 1.2rem; border: 1px solid rgba(255,255,255,0.12);
+      text-decoration: none; color: #fff; transition: background 0.15s, border-color 0.15s;
+    }
+    .contact-link:hover { background: rgba(255,255,255,0.07); border-color: rgba(255,255,255,0.3); }
+    .cl-label { font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.1em; color: rgba(255,255,255,0.4); display: block; margin-bottom: 0.1rem; }
+    .cl-value { font-size: 0.87rem; font-weight: 400; }
+    .cl-arrow { font-size: 0.9rem; color: rgba(255,255,255,0.35); }
+
+    /* FOOTER */
+    footer { background: var(--ink); border-top: 1px solid rgba(255,255,255,0.07); text-align: center; padding: 1.5rem; font-size: 0.72rem; color: rgba(255,255,255,0.28); letter-spacing: 0.05em; }
+
+    /* FADE */
+    .fade { opacity: 0; transform: translateY(18px); transition: opacity 0.55s ease, transform 0.55s ease; }
+    .fade.visible { opacity: 1; transform: translateY(0); }
+
+    /* RESPONSIVE */
+    @media (max-width: 960px) {
+      nav { padding: 0 1.5rem; }
+      .nav-links { gap: 1rem; }
+      #hero { grid-template-columns: 1fr; padding: 7rem 1.5rem 4rem; gap: 3rem; }
+      .story-grid { grid-template-columns: 1fr; gap: 2rem; }
+      .tl-item { grid-template-columns: 1fr; gap: 0.4rem; }
+      .impact-grid { grid-template-columns: 1fr 1fr; }
+      .skills-grid { grid-template-columns: 1fr; }
+      .edu-item { grid-template-columns: 1fr; gap: 0.4rem; }
+      .act-grid { grid-template-columns: 1fr; }
+      .contact-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+      .sw, .alt-i, .dark-i { padding: 3.5rem 1.5rem; }
+      .projects-grid { grid-template-columns: 1fr !important; }
+    }
+    @media (max-width: 540px) {
+      .stat-row { grid-template-columns: 1fr; }
+      .impact-grid { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a class="nav-logo" href="#hero">Prachi Singh</a>
+  <ul class="nav-links">
+    <li><a href="#story">About</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<div id="hero">
+  <div class="hero-left fade">
+    <div class="hero-badge">Strategy &amp; Planning · Program Management</div>
+    <h1>Turning data<br/>into <span class="hl">decisions.</span></h1>
+    <p class="hero-sub">
+      3 years building pricing, procurement, and operations strategy at India's high-growth startups —
+      using SQL, Python, and first-principles thinking to move businesses faster and smarter.
+    </p>
+    <div class="hero-actions">
+      <a href="https://drive.google.com/file/d/1FB9gRBN0n0pUnumyC2V7ZVr1FIfszow7/view" target="_blank" class="btn btn-primary">View Resume ↗</a>
+      <a href="#story" class="btn btn-outline">Read More</a>
+    </div>
+  </div>
+  <div class="hero-right fade">
+    <div class="stat-row">
+      <div class="stat-cell">
+        <div class="stat-val">90<span class="u">%</span></div>
+        <div class="stat-desc">Reduction in manual pricing effort via SQL automation</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-val">₹28<span class="u">L</span></div>
+        <div class="stat-desc">Monthly losses prevented through procurement planning</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-val">+30<span class="u">%</span></div>
+        <div class="stat-desc">National revenue uplift from ₹20L Diwali campaign</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-val">+8<span class="u">%</span></div>
+        <div class="stat-desc">NPS improvement through process and delivery reforms</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<div class="alt" id="story">
+  <div class="alt-i">
+    <div class="story-grid">
+      <div class="fade">
+        <div class="s-label">About</div>
+        <div class="rule"></div>
+        <h2 style="margin-bottom:0.6rem;">The kind of strategist who started on a factory floor.</h2>
+        <p style="margin-top:0.8rem;">IIT Kanpur · B.Tech Mechanical Engineering<br/>Minor — Industrial &amp; Management Engineering</p>
+      </div>
+      <div class="story-body fade">
+        <p>
+          I started where most strategists don't — on a production floor at MP Birla Cement. I learned early that
+          <strong>waste is never random</strong>. There's always a data point behind it, and a lever that moves it.
+          A packaging material change I recommended cut moisture absorption by 5%. Small number, real consequence.
+        </p>
+        <blockquote class="pull-quote">
+          "I don't optimise for outputs in isolation — I optimise for the decisions that produce better outputs, consistently."
+        </blockquote>
+        <p>
+          At <strong>Indkal Technologies</strong>, I worked directly with the CEO on a fundamental business model
+          pivot — from inventory-led to marketplace. I analyzed 25,000+ TV returns worth ₹1.1B, redesigned
+          supply chain checkpoints, and led the Diwali campaign that delivered 30% national revenue growth.
+        </p>
+        <p>
+          Today at <strong>DriveX</strong>, I work across the full stack of used two-wheeler strategy: pricing,
+          procurement planning, competitive benchmarking, and inventory management. I automated the pricing
+          workflow entirely in SQL — what took hours now takes minutes.
+        </p>
+        <p>
+          I'm an engineer who speaks fluent P&amp;L, thrives on messy datasets, and believes the best strategy
+          is the one that actually gets executed.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- EXPERIENCE -->
+<div id="experience">
+  <div class="sw">
+    <div class="s-label">Work Experience</div>
+    <div class="rule"></div>
+    <h2>Career Timeline</h2>
+
+    <!-- DriveX -->
+    <div class="tl-item fade">
+      <div>
+        <div class="tl-date">Jan 2025 — Present</div>
+        <div class="tl-org">DriveX</div>
+        <div class="tl-type">Full-time</div>
+      </div>
+      <div>
+        <div class="tl-role">Associate Program Manager — Pricing &amp; Procurement Strategy / Ops</div>
+        <p class="tl-desc">Owns pricing and procurement planning for used two-wheelers across India. Designed and automated data workflows, built dashboards for inventory and market decisions, and led cross-functional initiatives to reduce cycle time and cost. Delivers strategic insights on rentals, competitive benchmarking, and cost optimisation to leadership.</p>
+        <div class="metrics">
+          <span class="pill">~90% reduction in manual pricing effort</span>
+          <span class="pill">80% faster turnaround time</span>
+          <span class="pill">₹28L/mo losses prevented</span>
+          <span class="pill">Cycle time: 90 → 60 days</span>
+          <span class="pill">₹33K/mo saved via quality checks</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Indkal -->
+    <div class="tl-item fade">
+      <div>
+        <div class="tl-date">Jul 2023 — Sep 2024</div>
+        <div class="tl-org">Indkal Technologies</div>
+        <div class="tl-type">Management Trainee</div>
+      </div>
+      <div>
+        <div class="tl-role">Management Trainee — Product &amp; Business Operations</div>
+        <p class="tl-desc">Joined a consumer electronics company mid-transformation. Worked across strategy, supply chain, marketing, and operations. Led the inventory-to-marketplace model pivot in collaboration with the CEO. Analysed large-scale returns data, improved service quality checkpoints, and executed a national performance marketing campaign.</p>
+        <div class="metrics">
+          <span class="pill">₹1.1B returns analyzed (25,000+ units)</span>
+          <span class="pill">+8% NPS improvement</span>
+          <span class="pill">+30% national revenue (Diwali campaign)</span>
+          <span class="pill">Inventory → Marketplace pivot</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Birla -->
+    <div class="tl-item fade">
+      <div>
+        <div class="tl-date">Jun 2022 — Jul 2022</div>
+        <div class="tl-org">MP Birla Cement</div>
+        <div class="tl-type">Internship</div>
+      </div>
+      <div>
+        <div class="tl-role">Quality Assurance Intern</div>
+        <p class="tl-desc">Embedded with production and packaging teams to identify and reduce moisture-related waste in manufacturing. Recommended and implemented a packaging material change resulting in a 5% reduction in moisture absorption, improving product quality and reducing waste in the OPC and Pozzolana production process.</p>
+        <div class="metrics">
+          <span class="pill n">5% reduction in moisture absorption</span>
+          <span class="pill n">OPC &amp; Pozzolana raw material analysis</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- IMPACT -->
+<div class="alt">
+  <div class="alt-i">
+    <div class="s-label">Impact</div>
+    <div class="rule"></div>
+    <h2>By the Numbers</h2>
+    <div class="impact-grid fade">
+      <div class="impact-card">
+        <div class="impact-num">₹28L/mo</div>
+        <div class="impact-label">Inventory losses prevented through procurement-inventory planning</div>
+      </div>
+      <div class="impact-card">
+        <div class="impact-num">90%</div>
+        <div class="impact-label">Reduction in manual pricing effort via SQL workflow automation</div>
+      </div>
+      <div class="impact-card">
+        <div class="impact-num">+30%</div>
+        <div class="impact-label">National revenue uplift from targeted ₹20L Diwali performance campaign</div>
+      </div>
+      <div class="impact-card">
+        <div class="impact-num">+8%</div>
+        <div class="impact-label">Net Promoter Score improvement through process and delivery reforms</div>
+      </div>
+    </div>
+
+    <div style="margin-top:3.5rem;">
+      <div class="s-label">Projects</div>
+      <div class="rule"></div>
+      <h2 style="margin-bottom:1.5rem;">Selected Work</h2>
+      <div class="projects-grid fade" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="skill-card">
+          <div class="skill-card-label">Apr – May 2025 · DriveX</div>
+          <div style="font-size:0.93rem; font-weight:600; color:var(--ink); margin-bottom:0.5rem;">Rental Model Analysis — Two-Wheeler Vehicles</div>
+          <p style="font-size:0.82rem; color:var(--ink-3); line-height:1.65; font-weight:300;">Conducted SWOT analysis of long-term vs short-term rental models. Designed a framework to evaluate business models across economics, customer segments, and operational trade-offs. Delivered to DriveX leadership.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-card-label">Ongoing · DriveX</div>
+          <div style="font-size:0.93rem; font-weight:600; color:var(--ink); margin-bottom:0.5rem;">Competitive Benchmarking &amp; Pricing Strategy</div>
+          <p style="font-size:0.82rem; color:var(--ink-3); line-height:1.65; font-weight:300;">Market intelligence on pricing, inventory acquisition, and competitive positioning for used two-wheelers. Feeds directly into pricing decisions and stock management dashboards.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SKILLS -->
+<div id="skills">
+  <div class="sw">
+    <div class="s-label">Skills</div>
+    <div class="rule"></div>
+    <h2>Core Competencies</h2>
+    <div class="skills-grid fade">
+      <div class="skill-card">
+        <div class="skill-card-label">Analytics &amp; Data</div>
+        <div class="tags">
+          <span class="tag">SQL</span>
+          <span class="tag">Python</span>
+          <span class="tag">Power BI</span>
+          <span class="tag">Tableau</span>
+          <span class="tag">Superset</span>
+          <span class="tag">Google Analytics</span>
+          <span class="tag">Excel</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-card-label">Strategy &amp; Business Operations</div>
+        <div class="tags">
+          <span class="tag">Pricing Strategy</span>
+          <span class="tag">Procurement Planning</span>
+          <span class="tag">Market Analysis</span>
+          <span class="tag">Process Optimisation</span>
+          <span class="tag">SWOT Analysis</span>
+          <span class="tag">Competitive Benchmarking</span>
+          <span class="tag">Inventory Management</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-card-label">Tools &amp; Platforms</div>
+        <div class="tags">
+          <span class="tag">Jira</span>
+          <span class="tag">Zoho CRM</span>
+          <span class="tag">HubSpot</span>
+          <span class="tag">ERP</span>
+          <span class="tag">Google Workspace</span>
+          <span class="tag">Meta Ads Manager</span>
+          <span class="tag">Google Ads</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- EDUCATION -->
+<div class="alt" id="education">
+  <div class="alt-i">
+    <div class="s-label">Education</div>
+    <div class="rule"></div>
+    <h2>Academic Background</h2>
+
+    <div class="fade">
+      <div class="edu-item">
+        <div>
+          <div class="edu-year">2019 – 2023</div>
+          <div class="edu-type">Undergraduate</div>
+        </div>
+        <div>
+          <div class="edu-inst">Indian Institute of Technology Kanpur</div>
+          <div class="edu-degree">
+            B.Tech · Mechanical Engineering<br/>
+            Minor · Industrial &amp; Management Engineering
+          </div>
+        </div>
+      </div>
+
+      <div class="edu-item">
+        <div>
+          <div class="edu-year">Prior to 2019</div>
+          <div class="edu-type">Schooling</div>
+        </div>
+        <div>
+          <div class="edu-inst">Class XII &amp; Class X</div>
+          <div class="edu-degree">Secondary and Senior Secondary Education</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- POR -->
+    <div style="margin-top:3.5rem;">
+      <div class="s-label">Positions of Responsibility</div>
+      <div class="rule"></div>
+      <h2 style="margin-bottom:0.4rem;">Leadership at IIT Kanpur</h2>
+      <p style="font-size:0.83rem; color:var(--ink-3); margin-bottom:0; font-weight:300;">Leadership roles held alongside the B.Tech programme.</p>
+
+      <div class="por-card fade">
+        <div class="por-header">
+          <div>
+            <div class="por-role">Head, Media &amp; Publicity</div>
+            <div class="por-event">Udghosh 2022 — IIT Kanpur's Flagship Sports Festival</div>
+          </div>
+          <div class="por-date">Aug 2022 – Oct 2022</div>
+        </div>
+        <ul class="por-bullets">
+          <li>Led a 100+ member, 4-tier team to drive marketing and publicity for the institute's flagship sports festival.</li>
+          <li>Secured media partnerships with DD News, Dainik Jagran, and Sportstar, expanding event reach and national visibility.</li>
+          <li>Executed 50+ events, increasing offline participation by 200% YoY and brand partnerships by 160% YoY.</li>
+          <li>Organised the flagship online event and drove large-scale audience engagement through targeted digital campaigns.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ACTIVITIES -->
+    <div style="margin-top:3.5rem;">
+      <div class="s-label">Extracurricular Activities</div>
+      <div class="rule"></div>
+      <h2 style="margin-bottom:1.5rem;">Activities &amp; Volunteering</h2>
+      <div class="act-grid fade">
+        <div class="act-item">
+          <div class="act-title">Secretary, Dramatics Club — IIT Kanpur</div>
+          <div class="act-detail">Planned, organised, and conducted online workshops, acts, and street plays. Coordinated creative productions across remote teams.</div>
+        </div>
+        <div class="act-item">
+          <div class="act-title">Lawn Tennis — IIT Kanpur</div>
+          <div class="act-detail">Represented the institute at the Inter IIT Sports Meet and Udghosh. Competed at the national collegiate level.</div>
+        </div>
+        <div class="act-item">
+          <div class="act-title">Volunteer — Red Dot Foundation</div>
+          <div class="act-detail">Safecity Campaign — raised awareness for women's safety in high-risk areas through community engagement and mapping.</div>
+        </div>
+        <div class="act-item">
+          <div class="act-title">Volunteer — Teach for India</div>
+          <div class="act-detail">Taught two underprivileged students during the pandemic as part of a structured education outreach initiative.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CONTACT -->
+<div class="dark" id="contact">
+  <div class="dark-i">
+    <div class="contact-grid">
+      <div class="fade">
+        <div class="s-label" style="color:#6ea8fe;">Get in Touch</div>
+        <h2 class="contact-headline">Open to roles in Strategy, Planning &amp; Operations.</h2>
+        <p class="contact-sub">If you're building something that needs rigorous thinking and clean execution, I'd like to hear about it.</p>
+      </div>
+      <div class="contact-links fade">
+        <a href="mailto:prachi.singh.8544@gmail.com" class="contact-link">
+          <div><span class="cl-label">Email</span><span class="cl-value">prachi.singh.8544@gmail.com</span></div>
+          <span class="cl-arrow">↗</span>
+        </a>
+        <a href="https://www.linkedin.com/in/prachi-singh-287683230/" target="_blank" class="contact-link">
+          <div><span class="cl-label">LinkedIn</span><span class="cl-value">prachi-singh-287683230</span></div>
+          <span class="cl-arrow">↗</span>
+        </a>
+        <a href="tel:+917524821290" class="contact-link">
+          <div><span class="cl-label">Phone</span><span class="cl-value">+91 75248 21290</span></div>
+          <span class="cl-arrow">↗</span>
+        </a>
+        <a href="https://drive.google.com/file/d/1FB9gRBN0n0pUnumyC2V7ZVr1FIfszow7/view" target="_blank" class="contact-link">
+          <div><span class="cl-label">Resume</span><span class="cl-value">Download PDF</span></div>
+          <span class="cl-arrow">↓</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>© 2025 Prachi Singh · Strategy &amp; Planning · IIT Kanpur · Bengaluru, India</footer>
+
+<script>
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); } });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.fade').forEach(el => obs.observe(el));
+  document.querySelectorAll('#hero .fade').forEach((el, i) => {
+    setTimeout(() => el.classList.add('visible'), 100 + i * 120);
+  });
+</script>
+</body>
+</html>
